@@ -1,0 +1,191 @@
+/* Empty. Add your own CSS if you like */
+*{
+  font-family: Helvetica Neue",Helvetica,Arial,Roboto,sans-serif; !important;
+}
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.list-text-new{
+font-size: 14px;
+ed;
+}
+.item-details{
+font-size: 12px;
+color: e6e6e6;
+}
+.offer-img{
+  width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+} 
+.list-head{
+  font-size: 16px;
+  color:e6e6e6;
+  font-weight: bold;
+}
+
+.custom {
+  background-color: #EDE8D2 !important; /* This sets the background color*/
+ }
+ .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+ 
+/*Set the background to transparent for ion-item*/
+.custom .item {
+  background-color: transparent;
+  border:none;   /*Removes all borders*/
+  border-top: 1px solid;   /*Top Border for each menu item*/
+  border-bottom:2px solid;   /*Bottom border for each menu item*/
+  border-color: #c3c3c3;   /*Sets colors for top and bottom border*/
+  color: #444;    /*Text color for each item*/
+}
+ 
+/*Changes the border for the last item*/
+.custom .item:last-child {
+  border-bottom: 1px solid #c3c3c3;
+}
+ 
+.custom .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent;
+}
+ 
+/*Just makes the type white*/
+.custom h2,
+.custom h3,
+.custom p,
+.custom a {
+  color: #444;  /*Text color for each item, overrides the color property above*/
+}
+
+.tile {
+  color: #fff;
+  height: 100px;
+  padding: 10px;
+}
+.tile-double {
+  height: 200px;
+}
+.tile + .tile {
+  margin-top: 10px;
+  height: 90px;
+}
+.tile-icon {
+  padding: 0;
+  text-align: center;
+  font-size: 40px;
+  line-height: 100px;
+}
+.tile-title {
+  position: relative;
+  text-align: center;
+}
+.tile-title > h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: #fff;
+  margin: 0;
+}
+.tile-image {
+  text-shadow: 1px 1px 0 #000;
+  background-size: cover;
+  background-position: bottom;
+}
+.no-deco{
+	text-decoration: none;
+}
+
+list-text{  
+	color: #388e3c; 
+    padding-top: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.whisky-img {
+    background-image: url('../img/whisky.png');
+    background-repeat :no-repeat;
+    width: 100%;
+}
+.wine-img {
+    background-image: url('../img/wine.png');
+    background-repeat :no-repeat;
+    width: 100%;
+}
+
+.teq-img {
+    background-image: url('../img/teq.png');
+    background-repeat :no-repeat;
+    width: 100%;
+}
+
+.vodka-img {
+    background-image: url('../img/vodka.png');
+    background-repeat :no-repeat;
+    width: 100%;
+}
+@media (min-width: 600px) {
+  .tile {
+    -webkit-transition: all linear .5s;
+    transition: all linear .5s;
+    height: 150px;
+    padding: 20px;
+  }
+  .tile-double {
+    height: 300px;
+  }
+  .tile + .tile {
+    margin-top: 10px;
+    height: 140px;
+  }
+  .tile-icon {
+    padding: 0;
+    font-size: 60px;
+    line-height: 150px;
+  }
+  .tile-title > h1 {
+    font-size: 32px;
+  }
+}
+
+
+.header-text{
+	text-align: center;
+    font-size: 23px;
+ }
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
